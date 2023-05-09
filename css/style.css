@@ -8,7 +8,7 @@ body {
     background-color: #16161a;
     color: #fff;
     
-    background: #000 url("/img/wallpaper.jpg") no-repeat center;
+    background: #000 url("/img/wallpaper.jpg?cache=2") no-repeat center;
     background-size: cover;
 
     min-height: 100vh;
