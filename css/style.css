@@ -9,6 +9,7 @@ body {
     color: #fff;
     
     background: #000 url("/img/wallpaper.jpg") no-repeat center;
+    background-size: cover;
 
     min-height: 100vh;
     display: flex;
@@ -58,17 +59,19 @@ main .logo {
     
     border-radius: 100%;
 
-    border: 10px solid #E6D5C655;
+    border: 10px solid #E6D5C688;
 }
 
 h1 {
-    color: #fff;
+    color: #000;
     font-size: 2.5em;
     font-weight: bolder;
+
+    margin-bottom: 0.5em;
 }
 
 h2 {
-    color: #ccc;
+    color: #222;
     font-size: 1.2em;
 }
 
@@ -146,4 +149,8 @@ a {
 
 a:hover {
     color: #fff;
+}
+
+.hidden {
+    visibility: hidden;
 }
