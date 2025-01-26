@@ -8,7 +8,7 @@ body {
     background-color: #16161a;
     color: #fff;
     
-    background: #000 url("/img/wallpaper.jpg?cache=2") no-repeat center;
+    background: #000 url("/img/wallpaper.png?cache=1") no-repeat center;
     background-size: cover;
 
     min-height: 100vh;
@@ -20,6 +20,13 @@ body {
 main {    
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .center {
@@ -76,7 +83,7 @@ h2 {
 }
 
 .links {
-    margin-top: 2em;
+    margin-top: -5em;
 
     display: flex;
     flex-direction: column;
@@ -107,14 +114,14 @@ ul li img {
     height: 2em;
 }
 
-ul li img.fancim {
-    width: 4.1em;
-    height: 1em;
+ul li img.soop {
+    width: 8.2em;
+    height: 2em;
 }
 
 footer {
     background: #000a;
-    padding: 1em;
+    padding: 0.2em;
     margin-top: 1.5em;
 }
 
